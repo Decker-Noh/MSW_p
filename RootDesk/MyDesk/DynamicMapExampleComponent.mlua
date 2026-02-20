@@ -1,0 +1,37 @@
+@Component
+script DynamicMapExampleComponent extends Component
+
+	@Sync
+	property integer mapNumber = 0
+
+	@ExecSpace("Server")
+	method void CreateDynamicMapMoveUser()
+		self.mapNumber += 1
+		
+		local mapName = "map02" .. tostring(self.mapNumber)
+		_DynamicMapService:CreateDynamicMap("map02", mapName)
+
+		local userEntityList = _UserService:GetUsersByMapName(self.Entity.CurrentMap.Name)
+		local targetMap = _EntityService:GetEntityByPath("/maps/" .. mapName)
+
+		local spawnPos = targetMap:GetChildByName("SpawnLocation").TransformComponent.WorldPosition
+		for index, userEntity in pairs(userEntityList) do
+			_TeleportService:TeleportToMapPosition(userEntity, spawnPos+Vector3(0,1,0), mapName)
+		end
+	end
+
+	@EventSender("Self")
+	handler HandlePortalUseEvent(PortalUseEvent event)
+		--------------- Native Event Sender Info ----------------
+		-- Sender: PortalComponent
+		-- Space: Client
+		---------------------------------------------------------
+		
+		-- Parameters
+		-- local PortalUser = event.PortalUser
+		---------------------------------------------------------
+		self:CreateDynamicMapMoveUser()
+		
+	end
+
+end
