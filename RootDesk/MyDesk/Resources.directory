@@ -1,7 +1,7 @@
 {
   "Id": "",
   "GameId": "",
-  "EntryKey": "directory://9fe86eab58044ce3a83f91a9eab80680",
+  "EntryKey": "directory://fa668f27f1074243ab8b4ec150113d39",
   "ContentType": "x-mod/directory",
   "Content": "",
   "Usage": 0,
@@ -13,11 +13,11 @@
   "ContentProto": {
     "Use": "Json",
     "Json": {
-      "entry_id": "directory://9fe86eab58044ce3a83f91a9eab80680",
-      "name": "MyDesk",
+      "entry_id": "directory://fa668f27f1074243ab8b4ec150113d39",
+      "name": "Resources",
       "lock": false,
       "folding": false,
-      "nameEditable": false
+      "nameEditable": true
     }
   }
 }

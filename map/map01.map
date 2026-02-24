@@ -40,7 +40,7 @@
               "FootholdsByLayer": {
                 "1": [
                   {
-                    "Length": 0.2599999,
+                    "Length": 0.259999931,
                     "NextFootholdId": 16,
                     "PreviousFootholdId": 14,
                     "groupID": 1,
@@ -58,7 +58,7 @@
                     "OwnerId": "633acf93-0aac-4cb0-9f80-21de9b78c4c4",
                     "Id": 1,
                     "StartPoint": {
-                      "x": -0.129999965,
+                      "x": -0.13,
                       "y": -1.16
                     },
                     "EndPoint": {
@@ -164,7 +164,7 @@
                     }
                   },
                   {
-                    "Length": 0.9,
+                    "Length": 0.899999738,
                     "NextFootholdId": 6,
                     "PreviousFootholdId": 4,
                     "groupID": 2,
@@ -186,7 +186,7 @@
                       "y": 0.03999999
                     },
                     "EndPoint": {
-                      "x": -1.34999979,
+                      "x": -1.35,
                       "y": 0.03999999
                     },
                     "Variance": {
@@ -337,11 +337,11 @@
                     "OwnerId": "633acf93-0aac-4cb0-9f80-21de9b78c4c4",
                     "Id": 10,
                     "StartPoint": {
-                      "x": 2.24999976,
+                      "x": 2.25,
                       "y": 0.03999999
                     },
                     "EndPoint": {
-                      "x": 3.14999986,
+                      "x": 3.15,
                       "y": 0.03999999
                     },
                     "Variance": {
@@ -430,11 +430,11 @@
                     "OwnerId": "633acf93-0aac-4cb0-9f80-21de9b78c4c4",
                     "Id": 13,
                     "StartPoint": {
-                      "x": -2.57,
+                      "x": -2.56999969,
                       "y": -0.9
                     },
                     "EndPoint": {
-                      "x": -2.57,
+                      "x": -2.56999969,
                       "y": -0.3
                     },
                     "Variance": {
@@ -461,11 +461,11 @@
                     "OwnerId": "633acf93-0aac-4cb0-9f80-21de9b78c4c4",
                     "Id": 14,
                     "StartPoint": {
-                      "x": -0.129999965,
+                      "x": -0.13,
                       "y": -0.9000001
                     },
                     "EndPoint": {
-                      "x": -0.129999965,
+                      "x": -0.13,
                       "y": -1.16
                     },
                     "Variance": {
@@ -585,11 +585,11 @@
                     "OwnerId": "633acf93-0aac-4cb0-9f80-21de9b78c4c4",
                     "Id": 18,
                     "StartPoint": {
-                      "x": 3.46999979,
+                      "x": 3.47,
                       "y": -0.3
                     },
                     "EndPoint": {
-                      "x": 3.46999979,
+                      "x": 3.47,
                       "y": -0.9
                     },
                     "Variance": {

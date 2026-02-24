@@ -16,7 +16,7 @@
       {
         "id": "04875d2f-b091-4f24-9b49-8675e6383639",
         "path": "/common",
-        "componentNames": "",
+        "componentNames": "script.LoginComp",
         "jsonString": {
           "name": "common",
           "path": "/common",
@@ -28,7 +28,12 @@
           "pathConstraints": "/",
           "revision": 1,
           "modelId": null,
-          "@components": [],
+          "@components": [
+            {
+              "@type": "script.LoginComp",
+              "Enable": true
+            }
+          ],
           "@version": 1
         }
       }
