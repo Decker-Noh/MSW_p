@@ -16,7 +16,7 @@
       {
         "id": "eb1bec77-2b90-4fbb-a2a2-01fffefee279",
         "path": "/maps/Login",
-        "componentNames": "MOD.Core.MapComponent,MOD.Core.FootholdComponent",
+        "componentNames": "MOD.Core.MapComponent,MOD.Core.FootholdComponent,MOD.Core.SoundComponent",
         "jsonString": {
           "name": "Login",
           "path": "/maps/Login",
@@ -38,6 +38,14 @@
             {
               "@type": "MOD.Core.FootholdComponent",
               "FootholdsByLayer": {},
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SoundComponent",
+              "AudioClipRUID": "",
+              "Bgm": true,
+              "PlayOnEnable": true,
+              "Volume": 1.0,
               "Enable": true
             }
           ],
@@ -62,9 +70,16 @@
           "@components": [
             {
               "@type": "MOD.Core.BackgroundComponent",
-              "SpriteRUID": "6301ffcae7cb45f18eb0677f1138f7e0",
-              "TemplateRUID": "6301ffcae7cb45f18eb0677f1138f7e0",
-              "Type": 5,
+              "SolidColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "SpriteRUID": "",
+              "TemplateRUID": "02faa1df84814ef7b40383a98a23ea3b",
+              "Type": 1,
+              "WebUrl": "4fa09c04db474e17b101b322d57fa3ba",
               "Enable": true
             }
           ],
@@ -108,13 +123,13 @@
         }
       },
       {
-        "id": "3a1be0f1-de7e-421e-a126-f9ed6c21316f",
-        "path": "/maps/Login/TileMap",
-        "componentNames": "MOD.Core.TransformComponent,MOD.Core.TileMapComponent",
+        "id": "131c5fc6-ced7-477f-a7ec-715e2123c9e4",
+        "path": "/maps/Login/MapEmpty",
+        "componentNames": "MOD.Core.TransformComponent",
         "jsonString": {
-          "name": "TileMap",
-          "path": "/maps/Login/TileMap",
-          "nameEditable": false,
+          "name": "MapEmpty",
+          "path": "/maps/Login/MapEmpty",
+          "nameEditable": true,
           "enable": true,
           "visible": true,
           "localize": false,
@@ -123,19 +138,19 @@
           "revision": 1,
           "origin": {
             "type": "Model",
-            "entry_id": "tilemap",
+            "entry_id": "mapempty",
             "sub_entity_id": null,
-            "root_entity_id": null,
+            "root_entity_id": "131c5fc6-ced7-477f-a7ec-715e2123c9e4",
             "replaced_model_id": null
           },
-          "modelId": "tilemap",
+          "modelId": "mapempty",
           "@components": [
             {
               "@type": "MOD.Core.TransformComponent",
               "Position": {
-                "x": -0.225,
-                "y": -0.15,
-                "z": 1000.0
+                "x": 7.62939464E-07,
+                "y": -0.27796796,
+                "z": 999.999
               },
               "QuaternionRotation": {
                 "x": 0.0,
@@ -143,22 +158,6 @@
                 "z": 0.0,
                 "w": 1.0
               },
-              "Scale": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              },
-              "Enable": true
-            },
-            {
-              "@type": "MOD.Core.TileMapComponent",
-              "IsOddGridPosition": false,
-              "SortingLayer": "MapLayer0",
-              "TileMapVersion": 1,
-              "TileSetRUID": {
-                "DataId": "0cb48999533e4102b25ecf7c77f4af77"
-              },
-              "Tiles": [],
               "Enable": true
             }
           ],

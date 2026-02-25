@@ -1,9 +1,0 @@
-@Component
-script LoginComp extends Component
-
-	@ExecSpace("ServerOnly")
-	method void OnBeginPlay()
-		
-	end
-
-end
