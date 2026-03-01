@@ -37,18 +37,20 @@
         {
           "Id": "MOD@Climbable",
           "Name": "Climbable"
+        },
+        {
+          "Id": "34c407947a49405d84d788c6a3833b67",
+          "Name": "Bubble"
+        },
+        {
+          "Id": "6d4a4743b5eb4e0181cb723e07dfcff5",
+          "Name": "Character"
         }
       ],
       "Matrix": {
-        "8d26f3847eb14eb7bf78ec0da36f8e82": [
-          "8d26f3847eb14eb7bf78ec0da36f8e82"
-        ],
-        "MOD@TriggerBox": [
-          "MOD@TriggerBox"
-        ],
-        "MOD@HitBox": [
-          "MOD@HitBox"
-        ],
+        "8d26f3847eb14eb7bf78ec0da36f8e82": [],
+        "MOD@TriggerBox": [],
+        "MOD@HitBox": [],
         "MOD@Interaction": [
           "MOD@Interaction"
         ],
@@ -57,6 +59,12 @@
         ],
         "MOD@Climbable": [
           "MOD@Climbable"
+        ],
+        "34c407947a49405d84d788c6a3833b67": [
+          "6d4a4743b5eb4e0181cb723e07dfcff5"
+        ],
+        "6d4a4743b5eb4e0181cb723e07dfcff5": [
+          "34c407947a49405d84d788c6a3833b67"
         ]
       }
     }

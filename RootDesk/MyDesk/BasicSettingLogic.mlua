@@ -1,0 +1,11 @@
+@Logic
+script BasicSettingLogic extends Logic
+
+	@ExecSpace("ClientOnly")
+	method void OnBeginPlay()
+		--카메라 설정
+		local camera = _EntityService:GetEntityByPath("/maps/map05/FixedCamera").CameraComponent
+		_CameraService:SwitchCameraTo(camera)
+	end
+
+end

@@ -1,0 +1,107 @@
+{
+  "Id": "",
+  "GameId": "",
+  "EntryKey": "tileset://6c32a46e-a38b-4b3e-96ba-884d2cde57fb",
+  "ContentType": "x-mod/tileset",
+  "Content": "",
+  "Usage": 0,
+  "UsePublish": 1,
+  "UseService": 0,
+  "CoreVersion": "26.1.0.0",
+  "StudioVersion": "0.1.0.0",
+  "DynamicLoading": 0,
+  "ContentProto": {
+    "Use": "Json",
+    "Json": {
+      "name": "GameTileSet",
+      "id": "tileset://6c32a46e-a38b-4b3e-96ba-884d2cde57fb",
+      "datas": [
+        {
+          "Id": "2a900c19f2fb486d8af1a4344bfd1f6e",
+          "Name": "Name0",
+          "IsCollidable": false
+        },
+        {
+          "Id": "2b047169fae0493b86d259c9ca0a9719",
+          "Name": "Name1",
+          "IsCollidable": true
+        },
+        {
+          "Id": "0ae5900f30cb46a7b14c2d92442e67ac",
+          "Name": "Name2",
+          "IsCollidable": false
+        },
+        {
+          "Id": "c974228ce4ee43c98d80f23c39581977",
+          "Name": "Name3",
+          "IsCollidable": false
+        },
+        {
+          "Id": "1795ec1f13c74470acf3d6dca9be34ed",
+          "Name": "Name4",
+          "IsCollidable": false
+        },
+        {
+          "Id": "106e2576205745a3a402224e91007bec",
+          "Name": "Name5",
+          "IsCollidable": false
+        },
+        {
+          "Id": "97416bdf830046f3aede59d62c4ad0bf",
+          "Name": "Name6",
+          "IsCollidable": false
+        },
+        {
+          "Id": "63086dd4897f4720a0a16bd7783f6e6c",
+          "Name": "Name7",
+          "IsCollidable": false
+        },
+        {
+          "Id": "457bcdf996a94f2f95bea58b87d45616",
+          "Name": "Name8",
+          "IsCollidable": false
+        },
+        {
+          "Id": "0e7ed9b79c8a4c71b4832536047cdb29",
+          "Name": "Name9",
+          "IsCollidable": false
+        },
+        {
+          "Id": "d0143f7814ae4a9fabb5172e768dd44b",
+          "Name": "Name10",
+          "IsCollidable": false
+        },
+        {
+          "Id": "2e6022dbd5d7438eba36c72c030ef412",
+          "Name": "Name11",
+          "IsCollidable": false
+        },
+        {
+          "Id": "5247f62a04c14810834cec0829354186",
+          "Name": "Name12",
+          "IsCollidable": false
+        },
+        {
+          "Id": "486bc855feb94d209936caa2d792199c",
+          "Name": "Name13",
+          "IsCollidable": false
+        },
+        {
+          "Id": "bc54942ec23a4adb9cc254686936aeeb",
+          "Name": "Name14",
+          "IsCollidable": false
+        },
+        {
+          "Id": "05811c7d61494f3aa21cd988e8148456",
+          "Name": "Name15",
+          "IsCollidable": false
+        },
+        {
+          "Id": "6cdc56a545584ea3bd2926bba7e9554a",
+          "Name": "Name16",
+          "IsCollidable": false
+        }
+      ]
+    }
+  }
+}

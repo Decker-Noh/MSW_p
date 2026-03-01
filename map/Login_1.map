@@ -16,7 +16,7 @@
       {
         "id": "6e0b5790-9156-41ff-b350-0c1149d63920",
         "path": "/maps/Login_1",
-        "componentNames": "MOD.Core.MapComponent,MOD.Core.FootholdComponent",
+        "componentNames": "MOD.Core.MapComponent,MOD.Core.FootholdComponent,MOD.Core.SoundComponent",
         "jsonString": {
           "name": "Login_1",
           "path": "/maps/Login_1",
@@ -164,7 +164,7 @@
                     }
                   },
                   {
-                    "Length": 0.899999738,
+                    "Length": 0.9,
                     "NextFootholdId": 6,
                     "PreviousFootholdId": 4,
                     "groupID": 1,
@@ -186,7 +186,7 @@
                       "y": -1.85000014
                     },
                     "EndPoint": {
-                      "x": -1.35,
+                      "x": -1.34999979,
                       "y": -1.85000014
                     },
                     "Variance": {
@@ -337,11 +337,11 @@
                     "OwnerId": "159576b1-82dc-4941-8de4-0235bb1a0f77",
                     "Id": 10,
                     "StartPoint": {
-                      "x": 2.25,
+                      "x": 2.24999976,
                       "y": -1.85000014
                     },
                     "EndPoint": {
-                      "x": 3.15,
+                      "x": 3.14999986,
                       "y": -1.85000014
                     },
                     "Variance": {
@@ -412,7 +412,7 @@
                     }
                   },
                   {
-                    "Length": 1.28999949,
+                    "Length": 1.29,
                     "NextFootholdId": 14,
                     "PreviousFootholdId": 12,
                     "groupID": 1,
@@ -430,7 +430,7 @@
                     "OwnerId": "159576b1-82dc-4941-8de4-0235bb1a0f77",
                     "Id": 13,
                     "StartPoint": {
-                      "x": 4.95000029,
+                      "x": 4.95,
                       "y": -1.85000014
                     },
                     "EndPoint": {
@@ -506,6 +506,14 @@
                   }
                 ]
               },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SoundComponent",
+              "AudioClipRUID": "0dae5c7aa3844ced8d60a7c518b34f6c",
+              "Bgm": true,
+              "PlayOnEnable": true,
+              "Volume": 1.0,
               "Enable": true
             }
           ],
