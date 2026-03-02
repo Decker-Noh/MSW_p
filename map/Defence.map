@@ -1,0 +1,3333 @@
+{
+  "Id": "",
+  "GameId": "",
+  "EntryKey": "map://defence",
+  "ContentType": "x-mod/map",
+  "Content": "",
+  "Usage": 0,
+  "UsePublish": 1,
+  "UseService": 0,
+  "CoreVersion": "26.1.0.0",
+  "StudioVersion": "0.1.0.0",
+  "DynamicLoading": 0,
+  "ContentProto": {
+    "Use": "Binary",
+    "Entities": [
+      {
+        "id": "65a794ef-f3d3-43b8-ada9-ac8934f8f307",
+        "path": "/maps/Defence",
+        "componentNames": "MOD.Core.MapComponent,MOD.Core.FootholdComponent",
+        "jsonString": {
+          "name": "Defence",
+          "path": "/maps/Defence",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 0,
+          "pathConstraints": "//",
+          "revision": 1,
+          "modelId": null,
+          "@components": [
+            {
+              "@type": "MOD.Core.MapComponent",
+              "IsInstanceMap": false,
+              "TileMapMode": 1,
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.FootholdComponent",
+              "FootholdsByLayer": {},
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "1934374b-9fcd-4a57-9236-ed854bbebb45",
+        "path": "/maps/Defence/Background",
+        "componentNames": "MOD.Core.BackgroundComponent",
+        "jsonString": {
+          "name": "Background",
+          "path": "/maps/Defence/Background",
+          "nameEditable": false,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 0,
+          "pathConstraints": "///",
+          "revision": 1,
+          "modelId": null,
+          "@components": [
+            {
+              "@type": "MOD.Core.BackgroundComponent",
+              "SolidColor": {
+                "r": 0.549019635,
+                "g": 0.34117648,
+                "b": 0.164705887,
+                "a": 1.0
+              },
+              "TemplateRUID": "65c4167ea7484196b890022354e5a4a4",
+              "Type": 1,
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "738c54e9-a9c2-4709-864d-f825a2555c86",
+        "path": "/maps/Defence/MapleMapLayer",
+        "componentNames": "MOD.Core.MapLayerComponent",
+        "jsonString": {
+          "name": "MapleMapLayer",
+          "path": "/maps/Defence/MapleMapLayer",
+          "nameEditable": false,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 1,
+          "pathConstraints": "///",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "maplemaplayer",
+            "sub_entity_id": null,
+            "root_entity_id": null,
+            "replaced_model_id": null
+          },
+          "modelId": "maplemaplayer",
+          "@components": [
+            {
+              "@type": "MOD.Core.MapLayerComponent",
+              "IsVisible": true,
+              "LayerSortOrder": 0,
+              "Locked": false,
+              "MapLayerName": "Layer1",
+              "Thumbnail": "",
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "b3b0410c-95a4-4c49-8dea-bf24640f377b",
+        "path": "/maps/Defence/RectTileMap",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.RectTileMapComponent",
+        "jsonString": {
+          "name": "RectTileMap",
+          "path": "/maps/Defence/RectTileMap",
+          "nameEditable": false,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 2,
+          "pathConstraints": "///",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "recttilemap",
+            "sub_entity_id": null,
+            "root_entity_id": null,
+            "replaced_model_id": null
+          },
+          "modelId": "recttilemap",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.RectTileMapComponent",
+              "SortingLayer": "MapLayer0",
+              "TileSetRUID": "tileset://6c32a46e-a38b-4b3e-96ba-884d2cde57fb",
+              "Enable": true,
+              "tileMap": [
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -3,
+                    "y": -3
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -4,
+                    "y": -3
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 1,
+                    "y": -3
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 2,
+                    "y": -3
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 2,
+                    "y": 0
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -4,
+                    "y": 1
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 0,
+                    "y": -3
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -4,
+                    "y": -2
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 2,
+                    "y": -1
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 3,
+                    "y": 1
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -2,
+                    "y": 1
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -1,
+                    "y": 1
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 1
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 3,
+                    "y": 0
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 3,
+                    "y": -1
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 1,
+                    "y": -1
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 1,
+                    "y": -2
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -2,
+                    "y": 0
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -3,
+                    "y": 0
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -3,
+                    "y": -1
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -3,
+                    "y": -2
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -3,
+                    "y": 1
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 2,
+                    "y": 1
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 3,
+                    "y": -3
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -2,
+                    "y": -3
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -4,
+                    "y": 0
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 1,
+                    "y": 0
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -2,
+                    "y": -2
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 1,
+                    "y": 1
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 3,
+                    "y": -2
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -1,
+                    "y": -3
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -4,
+                    "y": -1
+                  },
+                  "tileIndex": 6
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 2,
+                    "y": -2
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -2,
+                    "y": -1
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 0,
+                    "y": -2
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -1,
+                    "y": -1
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -1,
+                    "y": -2
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 0,
+                    "y": 0
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": -1,
+                    "y": 0
+                  },
+                  "tileIndex": 15
+                },
+                {
+                  "type": 0,
+                  "position": {
+                    "x": 0,
+                    "y": -1
+                  },
+                  "tileIndex": 15
+                }
+              ]
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "8d380d3c-5c57-4eab-b87c-8e227253058c",
+        "path": "/maps/Defence/FixedCamera",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.CameraComponent,MOD.Core.SpriteRendererComponent,MOD.Core.SpriteGUIRendererComponent,MOD.Core.RawImageRendererComponent",
+        "jsonString": {
+          "name": "FixedCamera",
+          "path": "/maps/Defence/FixedCamera",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 3,
+          "pathConstraints": "///",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "8d380d3c-5c57-4eab-b87c-8e227253058c",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.0,
+                "y": -2.26,
+                "z": 0.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 0.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.CameraComponent",
+              "ConfineCameraArea": false,
+              "Damping": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "DeadZone": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "SoftZone": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "ZoomRatio": 80.0,
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SpriteRUID": "768e945b761a42a1a32ae8565127725f",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteGUIRendererComponent",
+              "ImageRUID": {
+                "DataId": "e363fe71863482e40954b62b58bf4ac8"
+              },
+              "OverrideSorting": false,
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.RawImageRendererComponent",
+              "MaterialId": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "8617eeae-a033-44c7-96a0-1ad9ffdea88e",
+        "path": "/maps/Defence/Map",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "Map",
+          "path": "/maps/Defence/Map",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 4,
+          "pathConstraints": "///",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "8617eeae-a033-44c7-96a0-1ad9ffdea88e",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 999.999
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "ff46622c-a284-465e-9160-53aaa294bf57",
+        "path": "/maps/Defence/Map/Basic",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "Basic",
+          "path": "/maps/Defence/Map/Basic",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 0,
+          "pathConstraints": "////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "ff46622c-a284-465e-9160-53aaa294bf57",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "610c1091-84bc-480a-9139-c265b32ed34b",
+        "path": "/maps/Defence/Map/Basic/Row03",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "Row03",
+          "path": "/maps/Defence/Map/Basic/Row03",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 0,
+          "pathConstraints": "/////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "60a53494-be69-4655-ad37-ce93b3c36ab1",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "Position": {
+                "x": 0.3096,
+                "y": -1.5,
+                "z": 0.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": -1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "ZRotation": 0.0,
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "29c016c0-43ca-402c-b595-d2f1376f10c3",
+        "path": "/maps/Defence/Map/Basic/Row03/01",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "01",
+          "path": "/maps/Defence/Map/Basic/Row03/01",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 0,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -2.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.448654175,
+                "g": 0.6193805,
+                "b": 0.9453125,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "3f75bc04-d5f8-494e-9132-e445b4212c6c",
+        "path": "/maps/Defence/Map/Basic/Row03/02",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "02",
+          "path": "/maps/Defence/Map/Basic/Row03/02",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 1,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -1.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "0e9d0b9d-a8c7-4ea5-8b7b-c660dd79f655",
+        "path": "/maps/Defence/Map/Basic/Row03/03",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "03",
+          "path": "/maps/Defence/Map/Basic/Row03/03",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 2,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -0.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "4887174c-76d2-4ce5-9034-ddfa48b6fa28",
+        "path": "/maps/Defence/Map/Basic/Row03/04",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "04",
+          "path": "/maps/Defence/Map/Basic/Row03/04",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 3,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "f1cc15d0-f71e-4791-909b-f9eb3ef5bb41",
+        "path": "/maps/Defence/Map/Basic/Row03/06",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "06",
+          "path": "/maps/Defence/Map/Basic/Row03/06",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 4,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 2.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "7b6bbc60-8a18-4359-a15f-3b503bbc2dc6",
+        "path": "/maps/Defence/Map/Basic/Row03/05",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "05",
+          "path": "/maps/Defence/Map/Basic/Row03/05",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 5,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 1.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "55c7e397-2c29-44fe-8ca7-98c7bdd89e10",
+        "path": "/maps/Defence/Map/Basic/Row02",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "Row02",
+          "path": "/maps/Defence/Map/Basic/Row02",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 1,
+          "pathConstraints": "/////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "60a53494-be69-4655-ad37-ce93b3c36ab1",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "Position": {
+                "x": 0.3096,
+                "y": -0.5,
+                "z": 0.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": -1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "ZRotation": 0.0,
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "44350bd1-92e7-4c98-aed3-0c2d3775e441",
+        "path": "/maps/Defence/Map/Basic/Row02/01",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "01",
+          "path": "/maps/Defence/Map/Basic/Row02/01",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 0,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -2.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.448654175,
+                "g": 0.6193805,
+                "b": 0.9453125,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "0b2fcc71-d078-4bb5-951a-fbc2117337e3",
+        "path": "/maps/Defence/Map/Basic/Row02/02",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "02",
+          "path": "/maps/Defence/Map/Basic/Row02/02",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 1,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -1.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "2e5bd18e-f4b9-432c-865a-f80e1d835337",
+        "path": "/maps/Defence/Map/Basic/Row02/03",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "03",
+          "path": "/maps/Defence/Map/Basic/Row02/03",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 2,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -0.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "cd06caef-7a17-4130-8612-5d58416401d4",
+        "path": "/maps/Defence/Map/Basic/Row02/04",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "04",
+          "path": "/maps/Defence/Map/Basic/Row02/04",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 3,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "33368396-518d-4ad1-9512-6097cd7c085f",
+        "path": "/maps/Defence/Map/Basic/Row02/06",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "06",
+          "path": "/maps/Defence/Map/Basic/Row02/06",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 4,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 2.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "59dce066-a6a8-4684-b14a-181284c54b12",
+        "path": "/maps/Defence/Map/Basic/Row02/05",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "05",
+          "path": "/maps/Defence/Map/Basic/Row02/05",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 5,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 1.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "36d71779-e9cd-4513-a803-3a8b18669a2d",
+        "path": "/maps/Defence/Map/Basic/Row01",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "Row01",
+          "path": "/maps/Defence/Map/Basic/Row01",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 2,
+          "pathConstraints": "/////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "60a53494-be69-4655-ad37-ce93b3c36ab1",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.3096,
+                "y": 0.5,
+                "z": 0.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "aed0eac3-5e8f-4bdb-b235-ae67a290ced1",
+        "path": "/maps/Defence/Map/Basic/Row01/01",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "01",
+          "path": "/maps/Defence/Map/Basic/Row01/01",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 0,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -2.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.448654175,
+                "g": 0.6193805,
+                "b": 0.9453125,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "4e87a107-bee7-45b5-b11d-2797c6f8597f",
+        "path": "/maps/Defence/Map/Basic/Row01/02",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "02",
+          "path": "/maps/Defence/Map/Basic/Row01/02",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 1,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -1.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "c7a2dd7f-4e09-45e4-9cb9-eff973fc3e83",
+        "path": "/maps/Defence/Map/Basic/Row01/03",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "03",
+          "path": "/maps/Defence/Map/Basic/Row01/03",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 2,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -0.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "41f10a91-5e74-4618-9133-9d8314c2ae11",
+        "path": "/maps/Defence/Map/Basic/Row01/04",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "04",
+          "path": "/maps/Defence/Map/Basic/Row01/04",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 3,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "9c675d0a-3aa8-41c9-a1d0-48458deb124e",
+        "path": "/maps/Defence/Map/Basic/Row01/06",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "06",
+          "path": "/maps/Defence/Map/Basic/Row01/06",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 4,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 2.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "88a45440-d5a1-4d6d-8c6d-ecebbcced140",
+        "path": "/maps/Defence/Map/Basic/Row01/05",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "05",
+          "path": "/maps/Defence/Map/Basic/Row01/05",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 5,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 1.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "aaf47be6-7228-4578-ae21-cd850b1f1981",
+        "path": "/maps/Defence/Map/DragMode",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "DragMode",
+          "path": "/maps/Defence/Map/DragMode",
+          "nameEditable": true,
+          "enable": false,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 1,
+          "pathConstraints": "////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "ff46622c-a284-465e-9160-53aaa294bf57",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "515bd17b-fce5-4c7e-b7d7-1540ae461cd5",
+        "path": "/maps/Defence/Map/DragMode/Row03",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "Row03",
+          "path": "/maps/Defence/Map/DragMode/Row03",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 0,
+          "pathConstraints": "/////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "60a53494-be69-4655-ad37-ce93b3c36ab1",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.3096,
+                "y": -1.5,
+                "z": 0.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "1037085c-cc6a-4970-bc60-9d76205ad611",
+        "path": "/maps/Defence/Map/DragMode/Row03/01",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "01",
+          "path": "/maps/Defence/Map/DragMode/Row03/01",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 0,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -2.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.448654175,
+                "g": 0.6193805,
+                "b": 0.9453125,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "d24e35f0-2163-46ce-8ee1-33b1aecf92fa",
+        "path": "/maps/Defence/Map/DragMode/Row03/02",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "02",
+          "path": "/maps/Defence/Map/DragMode/Row03/02",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 1,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -1.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "18402026-8f5c-4011-9bf9-156ed221fba7",
+        "path": "/maps/Defence/Map/DragMode/Row03/03",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "03",
+          "path": "/maps/Defence/Map/DragMode/Row03/03",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 2,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -0.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "20129fdb-bdd2-47b2-a6bb-a13885a32643",
+        "path": "/maps/Defence/Map/DragMode/Row03/04",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "04",
+          "path": "/maps/Defence/Map/DragMode/Row03/04",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 3,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "f8a7ade4-3874-4fb9-9c8f-95c377d57d23",
+        "path": "/maps/Defence/Map/DragMode/Row03/06",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "06",
+          "path": "/maps/Defence/Map/DragMode/Row03/06",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 4,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 2.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "c75974b7-c18b-43f5-a72b-d0ec463731a1",
+        "path": "/maps/Defence/Map/DragMode/Row03/05",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "05",
+          "path": "/maps/Defence/Map/DragMode/Row03/05",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 5,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 1.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "d5461a31-b8cd-4640-a376-f7d21c191161",
+        "path": "/maps/Defence/Map/DragMode/Row02",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "Row02",
+          "path": "/maps/Defence/Map/DragMode/Row02",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 1,
+          "pathConstraints": "/////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "60a53494-be69-4655-ad37-ce93b3c36ab1",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.3096,
+                "y": -0.5,
+                "z": 0.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "6d1ac361-a297-4951-8fae-4f86b1f4ab9c",
+        "path": "/maps/Defence/Map/DragMode/Row02/01",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "01",
+          "path": "/maps/Defence/Map/DragMode/Row02/01",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 0,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -2.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.448654175,
+                "g": 0.6193805,
+                "b": 0.9453125,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "20f7817e-e287-445e-ac08-28c5053fa4fe",
+        "path": "/maps/Defence/Map/DragMode/Row02/02",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "02",
+          "path": "/maps/Defence/Map/DragMode/Row02/02",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 1,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -1.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "4d414ecf-5a27-403a-acac-332e01be9972",
+        "path": "/maps/Defence/Map/DragMode/Row02/03",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "03",
+          "path": "/maps/Defence/Map/DragMode/Row02/03",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 2,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -0.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "e25c3052-20e1-4e30-88ce-4e4f55508d67",
+        "path": "/maps/Defence/Map/DragMode/Row02/04",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "04",
+          "path": "/maps/Defence/Map/DragMode/Row02/04",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 3,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "c582b95a-fad8-4ab8-9e26-df6ec5d531dc",
+        "path": "/maps/Defence/Map/DragMode/Row02/06",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "06",
+          "path": "/maps/Defence/Map/DragMode/Row02/06",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 4,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 2.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "fd4833ca-e54f-4ea6-8f3c-656ba5c0b689",
+        "path": "/maps/Defence/Map/DragMode/Row02/05",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "05",
+          "path": "/maps/Defence/Map/DragMode/Row02/05",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 5,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 1.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "04180ef4-f9d5-4a12-96aa-2ebee50a63c8",
+        "path": "/maps/Defence/Map/DragMode/Row01",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "Row01",
+          "path": "/maps/Defence/Map/DragMode/Row01",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 2,
+          "pathConstraints": "/////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "60a53494-be69-4655-ad37-ce93b3c36ab1",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.3096,
+                "y": 0.5,
+                "z": 0.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "da0f8bdd-e3c5-4869-964d-caeaa3be7e0e",
+        "path": "/maps/Defence/Map/DragMode/Row01/01",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "01",
+          "path": "/maps/Defence/Map/DragMode/Row01/01",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 0,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -2.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.448654175,
+                "g": 0.6193805,
+                "b": 0.9453125,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "667e079f-8173-4524-852d-52d66dbddc62",
+        "path": "/maps/Defence/Map/DragMode/Row01/02",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "02",
+          "path": "/maps/Defence/Map/DragMode/Row01/02",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 1,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -1.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "258eca72-69fc-4d07-896a-a1cb794cfa24",
+        "path": "/maps/Defence/Map/DragMode/Row01/03",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "03",
+          "path": "/maps/Defence/Map/DragMode/Row01/03",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 2,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -0.81,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "d52729b8-44a0-4257-88ae-c703c37ec85d",
+        "path": "/maps/Defence/Map/DragMode/Row01/04",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "04",
+          "path": "/maps/Defence/Map/DragMode/Row01/04",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 3,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "efd1df65-e2ab-4216-959e-3a3a53cbdc69",
+        "path": "/maps/Defence/Map/DragMode/Row01/06",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "06",
+          "path": "/maps/Defence/Map/DragMode/Row01/06",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 4,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 2.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "b6616827-0ed8-4ce0-8841-c03b2ebda7fd",
+        "path": "/maps/Defence/Map/DragMode/Row01/05",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent",
+        "jsonString": {
+          "name": "05",
+          "path": "/maps/Defence/Map/DragMode/Row01/05",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 5,
+          "pathConstraints": "//////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "e5516e31-c60f-4428-b1b2-33f0a1a9ed9b",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 1.19,
+                "y": 0.0,
+                "z": -1000.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 0.28,
+                "y": 0.28,
+                "z": 1.0
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "MaterialID": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+              "RenderSetting": 0,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "69e848dca82841d2b54b73b0b50ddddc",
+              "StartFrameIndex": 0,
+              "Color": {
+                "r": 0.447058827,
+                "g": 0.619607866,
+                "b": 0.945098042,
+                "a": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "d6f0caf9-0112-4d52-a51a-6a12cf7e64d4",
+        "path": "/maps/Defence/MyMonster",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "MyMonster",
+          "path": "/maps/Defence/MyMonster",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 5,
+          "pathConstraints": "///",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "d6f0caf9-0112-4d52-a51a-6a12cf7e64d4",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 999.999
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      }
+    ]
+  }
+}

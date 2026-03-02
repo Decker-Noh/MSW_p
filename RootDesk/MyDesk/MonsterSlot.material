@@ -1,0 +1,29 @@
+{
+  "Id": "",
+  "GameId": "",
+  "EntryKey": "material://b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+  "ContentType": "x-mod/material",
+  "Content": "",
+  "Usage": 0,
+  "UsePublish": 1,
+  "UseService": 0,
+  "CoreVersion": "26.1.0.0",
+  "StudioVersion": "0.1.0.0",
+  "DynamicLoading": 0,
+  "ContentProto": {
+    "Use": "Json",
+    "Json": {
+      "name": "MonsterSlot",
+      "id": "b54d6477-74e4-4da5-a6ab-47a81c5e3bf2",
+      "shadertype": "Glitch",
+      "Angle": 0.0,
+      "ChangeAmount": 0.05,
+      "Frequency": 0.1,
+      "LitMode": 0,
+      "Size": 0.02,
+      "TimeOffset": 0.0,
+      "IsUIMaterial": false,
+      "RequiresUIStencilStateChange": false
+    }
+  }
+}

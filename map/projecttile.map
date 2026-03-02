@@ -1,7 +1,7 @@
 {
   "Id": "",
   "GameId": "",
-  "EntryKey": "map://map05",
+  "EntryKey": "map://projecttile",
   "ContentType": "x-mod/map",
   "Content": "",
   "Usage": 0,
@@ -15,12 +15,12 @@
     "Entities": [
       {
         "id": "f47c6d22-561c-4304-985f-ee001c439fd2",
-        "path": "/maps/map05",
+        "path": "/maps/projecttile",
         "componentNames": "MOD.Core.MapComponent,MOD.Core.FootholdComponent",
         "jsonString": {
-          "name": "map05",
-          "path": "/maps/map05",
-          "nameEditable": false,
+          "name": "projecttile",
+          "path": "/maps/projecttile",
+          "nameEditable": true,
           "enable": true,
           "visible": true,
           "localize": false,
@@ -46,11 +46,11 @@
       },
       {
         "id": "fbf67ed3-3b09-4b8e-99a8-c5eba03ed8fd",
-        "path": "/maps/map05/Background",
+        "path": "/maps/projecttile/Background",
         "componentNames": "MOD.Core.BackgroundComponent",
         "jsonString": {
           "name": "Background",
-          "path": "/maps/map05/Background",
+          "path": "/maps/projecttile/Background",
           "nameEditable": false,
           "enable": true,
           "visible": true,
@@ -78,11 +78,11 @@
       },
       {
         "id": "f3728ef0-c93c-4cad-be20-d208cd4177db",
-        "path": "/maps/map05/MapleMapLayer",
+        "path": "/maps/projecttile/MapleMapLayer",
         "componentNames": "MOD.Core.MapLayerComponent",
         "jsonString": {
           "name": "MapleMapLayer",
-          "path": "/maps/map05/MapleMapLayer",
+          "path": "/maps/projecttile/MapleMapLayer",
           "nameEditable": false,
           "enable": true,
           "visible": true,
@@ -114,11 +114,11 @@
       },
       {
         "id": "11e644ec-8226-4286-aa10-c95d989cee01",
-        "path": "/maps/map05/RectTileMap",
+        "path": "/maps/projecttile/RectTileMap",
         "componentNames": "MOD.Core.TransformComponent,MOD.Core.RectTileMapComponent",
         "jsonString": {
           "name": "RectTileMap",
-          "path": "/maps/map05/RectTileMap",
+          "path": "/maps/projecttile/RectTileMap",
           "nameEditable": false,
           "enable": true,
           "visible": true,
@@ -1837,11 +1837,11 @@
       },
       {
         "id": "219d4ed4-3a99-4216-958f-ba9acdbc987b",
-        "path": "/maps/map05/FixedCamera",
+        "path": "/maps/projecttile/FixedCamera",
         "componentNames": "MOD.Core.TransformComponent,MOD.Core.CameraComponent,MOD.Core.SpriteRendererComponent",
         "jsonString": {
           "name": "FixedCamera",
-          "path": "/maps/map05/FixedCamera",
+          "path": "/maps/projecttile/FixedCamera",
           "nameEditable": true,
           "enable": true,
           "visible": true,
@@ -1896,11 +1896,11 @@
       },
       {
         "id": "99de9031-0fe1-4852-b600-57a5fc2f9f77",
-        "path": "/maps/map05/Bubble",
-        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent,MOD.Core.KinematicbodyComponent,MOD.Core.MovementComponent,MOD.Core.TriggerComponent",
+        "path": "/maps/projecttile/Bubble",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.SpriteRendererComponent,MOD.Core.KinematicbodyComponent,MOD.Core.MovementComponent,MOD.Core.TriggerComponent,script.ProjectTile",
         "jsonString": {
           "name": "Bubble",
-          "path": "/maps/map05/Bubble",
+          "path": "/maps/projecttile/Bubble",
           "nameEditable": true,
           "enable": true,
           "visible": true,
@@ -1920,8 +1920,8 @@
             {
               "@type": "MOD.Core.TransformComponent",
               "Position": {
-                "x": 0.855981469,
-                "y": 0.2526161,
+                "x": -1.0580349,
+                "y": 3.91874766,
                 "z": 999.999
               },
               "QuaternionRotation": {
@@ -1944,6 +1944,10 @@
             },
             {
               "@type": "MOD.Core.KinematicbodyComponent",
+              "ApplyClimbableRotation": true,
+              "EnableJump": true,
+              "EnableShadow": false,
+              "EnableTileCollision": true,
               "MoveVelocity": {
                 "x": 0.0,
                 "y": 0.0
@@ -1952,6 +1956,7 @@
             },
             {
               "@type": "MOD.Core.MovementComponent",
+              "InputSpeed": 10.0,
               "Enable": true
             },
             {
@@ -1960,14 +1965,20 @@
                 "x": 0.39,
                 "y": 0.22
               },
+              "CircleRadius": 0.09742799,
               "ColliderOffset": {
-                "x": -0.0749999955,
+                "x": 0.0,
                 "y": 0.0
               },
+              "ColliderType": 2,
               "CollisionGroup": {
                 "Id": "34c407947a49405d84d788c6a3833b67"
               },
               "IsLegacy": false,
+              "Enable": true
+            },
+            {
+              "@type": "script.ProjectTile",
               "Enable": true
             }
           ],

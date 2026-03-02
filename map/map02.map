@@ -164,7 +164,7 @@
                     }
                   },
                   {
-                    "Length": 0.9,
+                    "Length": 0.899999738,
                     "NextFootholdId": 6,
                     "PreviousFootholdId": 4,
                     "groupID": 1,
@@ -186,7 +186,7 @@
                       "y": 2.94
                     },
                     "EndPoint": {
-                      "x": -1.34999979,
+                      "x": -1.35,
                       "y": 2.94
                     },
                     "Variance": {
@@ -306,11 +306,11 @@
                     "OwnerId": "473a45ed-abb4-41c0-9a6c-6d79211d3dd1",
                     "Id": 9,
                     "StartPoint": {
-                      "x": 2.24999976,
+                      "x": 2.25,
                       "y": 2.94
                     },
                     "EndPoint": {
-                      "x": 3.14999986,
+                      "x": 3.15,
                       "y": 2.94
                     },
                     "Variance": {
@@ -319,7 +319,7 @@
                     }
                   },
                   {
-                    "Length": 1.24999976,
+                    "Length": 1.25000024,
                     "NextFootholdId": 24,
                     "PreviousFootholdId": 9,
                     "groupID": 1,
@@ -341,7 +341,7 @@
                       "y": 2.94
                     },
                     "EndPoint": {
-                      "x": 4.39999962,
+                      "x": 4.4,
                       "y": 2.94
                     },
                     "Variance": {
@@ -350,7 +350,7 @@
                     }
                   },
                   {
-                    "Length": 0.200000048,
+                    "Length": 0.200000286,
                     "NextFootholdId": 23,
                     "PreviousFootholdId": 21,
                     "groupID": 2,
@@ -368,12 +368,12 @@
                     "OwnerId": "473a45ed-abb4-41c0-9a6c-6d79211d3dd1",
                     "Id": 11,
                     "StartPoint": {
-                      "x": 3.49999976,
-                      "y": 2.34000015
+                      "x": 3.5,
+                      "y": 2.34
                     },
                     "EndPoint": {
-                      "x": 3.69999981,
-                      "y": 2.34000015
+                      "x": 3.70000029,
+                      "y": 2.34
                     },
                     "Variance": {
                       "x": 1.0,
@@ -660,7 +660,7 @@
                     }
                   },
                   {
-                    "Length": 0.3599999,
+                    "Length": 0.360000134,
                     "NextFootholdId": 11,
                     "PreviousFootholdId": 0,
                     "groupID": 2,
@@ -678,12 +678,12 @@
                     "OwnerId": "473a45ed-abb4-41c0-9a6c-6d79211d3dd1",
                     "Id": 21,
                     "StartPoint": {
-                      "x": 3.49999976,
+                      "x": 3.5,
                       "y": 2.7
                     },
                     "EndPoint": {
-                      "x": 3.49999976,
-                      "y": 2.34000015
+                      "x": 3.5,
+                      "y": 2.34
                     },
                     "Variance": {
                       "x": 0.0,
@@ -709,11 +709,11 @@
                     "OwnerId": "473a45ed-abb4-41c0-9a6c-6d79211d3dd1",
                     "Id": 22,
                     "StartPoint": {
-                      "x": 3.49999976,
+                      "x": 3.5,
                       "y": 0.3
                     },
                     "EndPoint": {
-                      "x": 3.49999976,
+                      "x": 3.5,
                       "y": -0.3
                     },
                     "Variance": {
@@ -722,7 +722,7 @@
                     }
                   },
                   {
-                    "Length": 0.3599999,
+                    "Length": 0.360000134,
                     "NextFootholdId": 0,
                     "PreviousFootholdId": 11,
                     "groupID": 2,
@@ -740,11 +740,11 @@
                     "OwnerId": "473a45ed-abb4-41c0-9a6c-6d79211d3dd1",
                     "Id": 23,
                     "StartPoint": {
-                      "x": 3.69999981,
-                      "y": 2.34000015
+                      "x": 3.70000029,
+                      "y": 2.34
                     },
                     "EndPoint": {
-                      "x": 3.69999981,
+                      "x": 3.70000029,
                       "y": 2.7
                     },
                     "Variance": {
@@ -771,11 +771,11 @@
                     "OwnerId": "473a45ed-abb4-41c0-9a6c-6d79211d3dd1",
                     "Id": 24,
                     "StartPoint": {
-                      "x": 4.39999962,
+                      "x": 4.4,
                       "y": 2.94
                     },
                     "EndPoint": {
-                      "x": 4.39999962,
+                      "x": 4.4,
                       "y": 2.10000014
                     },
                     "Variance": {
@@ -802,11 +802,11 @@
                     "OwnerId": "473a45ed-abb4-41c0-9a6c-6d79211d3dd1",
                     "Id": 25,
                     "StartPoint": {
-                      "x": 4.39999962,
+                      "x": 4.4,
                       "y": 2.1
                     },
                     "EndPoint": {
-                      "x": 4.39999962,
+                      "x": 4.4,
                       "y": 1.50000012
                     },
                     "Variance": {
@@ -833,11 +833,11 @@
                     "OwnerId": "473a45ed-abb4-41c0-9a6c-6d79211d3dd1",
                     "Id": 26,
                     "StartPoint": {
-                      "x": 4.39999962,
+                      "x": 4.4,
                       "y": 1.50000012
                     },
                     "EndPoint": {
-                      "x": 4.39999962,
+                      "x": 4.4,
                       "y": 0.9
                     },
                     "Variance": {
@@ -864,11 +864,11 @@
                     "OwnerId": "473a45ed-abb4-41c0-9a6c-6d79211d3dd1",
                     "Id": 27,
                     "StartPoint": {
-                      "x": 4.39999962,
+                      "x": 4.4,
                       "y": 0.9
                     },
                     "EndPoint": {
-                      "x": 4.39999962,
+                      "x": 4.4,
                       "y": 0.299999982
                     },
                     "Variance": {

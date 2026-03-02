@@ -1,0 +1,23 @@
+{
+  "Id": "",
+  "GameId": "",
+  "EntryKey": "sprite://69e848dca82841d2b54b73b0b50ddddc",
+  "ContentType": "x-mod/sprite",
+  "Content": "",
+  "Usage": 0,
+  "UsePublish": 1,
+  "UseService": 0,
+  "CoreVersion": "26.1.0.0",
+  "StudioVersion": "0.1.0.0",
+  "DynamicLoading": 0,
+  "ContentProto": {
+    "Use": "Json",
+    "Json": {
+      "upload_keyname": "2a/2b/2a2b89a2c98248d0af1e2b178b9630ef/sprite/69e848dca82841d2b54b73b0b50ddddc/639080362457615765",
+      "upload_hash": "91BAE971EDC13DD5CCC7E500A41593250CF5F51C8D1A43BB5520444E1F485045",
+      "name": "BlueOutline",
+      "resource_guid": "69e848dca82841d2b54b73b0b50ddddc",
+      "resource_version": "69a54795b314f0c263cc3151"
+    }
+  }
+}

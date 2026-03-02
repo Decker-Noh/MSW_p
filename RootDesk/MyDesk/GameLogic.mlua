@@ -1,0 +1,23 @@
+@Logic
+script GameLogic extends Logic
+
+	@Sync
+	property string userId = ""
+
+	@EventSender("Service", "UserService")
+	handler HandleUserEnterEvent(UserEnterEvent event)
+		--------------- Native Event Sender Info ----------------
+		-- Sender: UserService
+		-- Space: Server
+		---------------------------------------------------------
+		
+		-- Parameters
+		-- local ProfileCode = event.ProfileCode
+		-- local UserId = event.UserId
+		---------------------------------------------------------
+		self.userId = event.UserId
+		log(self.userId)
+		
+	end
+
+end

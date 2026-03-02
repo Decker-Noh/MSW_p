@@ -1,0 +1,35 @@
+@Component
+script ProjectTile extends Component
+
+	@Sync
+	property number speed = 100
+
+	@Sync
+	property Vector3 direction = Vector3(0,0,0)
+
+	@ExecSpace("ServerOnly")
+	method void OnBeginPlay()
+		self:BubbleAttack()
+	end
+
+	method void BubbleAttack()
+		local player = _UserService:GetUserEntityByUserId(_GameLogic.userId)
+		if player ~= nil then
+			local myPos = self.Entity.TransformComponent.Position
+			local playerPos = player.TransformComponent.Position
+			self.direction = (playerPos - myPos):Normalize()
+			local angle = math.deg(math.atan(self.direction.y, self. direction.x))
+			self.Entity.TransformComponent.ZRotation = angle
+			
+			if self.Entity.KinematicbodyComponent ~= nil then
+				self.Entity.KinematicbodyComponent.MoveVelocity = (self.direction):ToVector2() * self.speed
+			end
+		    log("움직임 설정 완료: " .. tostring(self.Entity.KinematicbodyComponent.MoveVelocity))
+		else
+			log("다시")
+			wait(1)
+			self:BubbleAttack()
+		end
+	end
+
+end

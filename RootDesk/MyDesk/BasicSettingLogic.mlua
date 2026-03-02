@@ -4,7 +4,8 @@ script BasicSettingLogic extends Logic
 	@ExecSpace("ClientOnly")
 	method void OnBeginPlay()
 		--카메라 설정
-		local camera = _EntityService:GetEntityByPath("/maps/map05/FixedCamera").CameraComponent
+		log("다른맵에서도 시작됨")
+		local camera = _EntityService:GetEntityByPath("/maps/Defence/FixedCamera").CameraComponent
 		_CameraService:SwitchCameraTo(camera)
 	end
 
