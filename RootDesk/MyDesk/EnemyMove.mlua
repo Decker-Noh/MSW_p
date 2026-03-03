@@ -1,0 +1,89 @@
+@Component
+script EnemyMove extends Component
+
+	@Sync
+	property number speed = 10
+
+	@Sync
+	property Entity targetPos01 = "5ff15c10-a8f9-40e6-a443-0faaaf5344b5"
+
+	@Sync
+	property Entity targetPos02 = "ffb6b736-9e45-4c05-864c-3aae510b18a1"
+
+	@Sync
+	property Entity targetPos03 = "5ceb7b62-102f-44c3-8d6c-f5d0a8a53d02"
+
+	@Sync
+	property Entity targetPos04 = "16775374-53ac-48dc-84a7-d0b18124470b"
+
+	@Sync
+	property Entity currentTarget = "5ff15c10-a8f9-40e6-a443-0faaaf5344b5"
+
+	@Sync
+	property Vector3 direction = Vector3(0,0,0)
+
+	@ExecSpace("ClientOnly")
+	method void OnBeginPlay()
+		self:TargetChange()
+	end
+
+	@ExecSpace("ClientOnly")
+	method void OnUpdate(number delta)
+		--local enemy = Vector2(self.currentTarget.TransformComponent.Position.x, self.currentTarget.TransformComponent.Position.y)
+		--local target = Vector2(self.Entity.TransformComponent.Position.x, self.Entity.TransformComponent.Position.y)
+		--
+		--if Vector2.Distance(target, enemy) < 0.02 then
+		--    self:TargetChange()
+		--else
+		--    self.Entity.TransformComponent.Position = self.Entity.TransformComponent.Position+ (self.direction *  self.speed * delta)
+		--end
+		if not self.currentTarget then return end
+		
+		    local myTransform = self.Entity.TransformComponent
+		    local targetTransform = self.currentTarget.TransformComponent
+		    
+		    local myPos = myTransform.Position
+		    local targetPos = targetTransform.Position
+		
+		    -- 1. 현재 프레임에서 가야 할 방향과 총 거리 계산
+		    local diffX = targetPos.x - myPos.x
+		    local diffY = targetPos.y - myPos.y
+		    local distance = math.sqrt(diffX^2 + diffY^2) -- 남은 거리
+		
+		    -- 2. 이번 프레임에 실제로 이동할 거리 계산
+		    local moveAmount = self.speed * delta
+		
+		    -- 3. [핵심 로직] 갈 거리가 남은 거리보다 크거나 같으면 "도착"으로 판정
+		    if distance <= moveAmount then
+		        -- 목표 지점에 정확히 딱 붙임 (지나침 방지)
+		        myTransform.Position = Vector3(targetPos.x, targetPos.y, myPos.z)
+		        self:TargetChange()
+		    else
+		        -- 아직 멀었으면 정상 이동
+		        -- 매 프레임 Normalize를 하지 않기 위해 캐싱된 self.direction 활용
+		        local moveStep = self.direction * moveAmount
+		        myTransform.Position = Vector3(myPos.x + moveStep.x, myPos.y + moveStep.y, myPos.z)
+		    end
+	end
+
+	method void TargetChange()
+		
+		if self.currentTarget == self.targetPos01 then
+			self.currentTarget = self.targetPos02
+		elseif self.currentTarget == self.targetPos02 then
+			self.currentTarget = self.targetPos03
+		elseif self.currentTarget == self.targetPos03 then
+			self.currentTarget = self.targetPos04
+		elseif self.currentTarget == self.targetPos04 then
+			self.currentTarget = self.targetPos01
+		end
+		local dirT = self.currentTarget.TransformComponent.Position - self.Entity.TransformComponent.Position
+		dirT = Vector3(dirT.x, dirT.y, 0):Normalize()
+		self.direction = dirT
+		log(self.direction)
+		log(self.currentTarget.Name)
+		local angle = math.deg(math.atan(self.direction.y, self. direction.x))
+		self.Entity.TransformComponent.ZRotation = angle
+	end
+
+end

@@ -689,11 +689,6 @@
           "@components": [
             {
               "@type": "MOD.Core.TransformComponent",
-              "Rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
               "Position": {
                 "x": 0.3096,
                 "y": -1.5,
@@ -703,14 +698,13 @@
                 "x": 0.0,
                 "y": 0.0,
                 "z": 0.0,
-                "w": -1.0
+                "w": 1.0
               },
               "Scale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
               },
-              "ZRotation": 0.0,
               "Enable": true
             }
           ],
@@ -1120,11 +1114,6 @@
           "@components": [
             {
               "@type": "MOD.Core.TransformComponent",
-              "Rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              },
               "Position": {
                 "x": 0.3096,
                 "y": -0.5,
@@ -1134,14 +1123,13 @@
                 "x": 0.0,
                 "y": 0.0,
                 "z": 0.0,
-                "w": -1.0
+                "w": 1.0
               },
               "Scale": {
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
               },
-              "ZRotation": 0.0,
               "Enable": true
             }
           ],
@@ -3287,6 +3275,289 @@
         }
       },
       {
+        "id": "be377d0a-f291-472d-9999-f007250ed982",
+        "path": "/maps/Defence/EnemyMap",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "EnemyMap",
+          "path": "/maps/Defence/EnemyMap",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 5,
+          "pathConstraints": "///",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "be377d0a-f291-472d-9999-f007250ed982",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 999.999
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "8bd690b5-0c12-479e-ab9e-14827553e0b0",
+        "path": "/maps/Defence/EnemyMap/TargetPosition",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "TargetPosition",
+          "path": "/maps/Defence/EnemyMap/TargetPosition",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 0,
+          "pathConstraints": "////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "8bd690b5-0c12-479e-ab9e-14827553e0b0",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": -1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "ZRotation": 0.0,
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "5ff15c10-a8f9-40e6-a443-0faaaf5344b5",
+        "path": "/maps/Defence/EnemyMap/TargetPosition/01",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "01",
+          "path": "/maps/Defence/EnemyMap/TargetPosition/01",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 0,
+          "pathConstraints": "/////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "5ff15c10-a8f9-40e6-a443-0faaaf5344b5",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -3.5,
+                "y": -2.5,
+                "z": -999.999
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "ffb6b736-9e45-4c05-864c-3aae510b18a1",
+        "path": "/maps/Defence/EnemyMap/TargetPosition/02",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "02",
+          "path": "/maps/Defence/EnemyMap/TargetPosition/02",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 1,
+          "pathConstraints": "/////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "5ff15c10-a8f9-40e6-a443-0faaaf5344b5",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 3.5,
+                "y": -2.5,
+                "z": -999.999
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "5ceb7b62-102f-44c3-8d6c-f5d0a8a53d02",
+        "path": "/maps/Defence/EnemyMap/TargetPosition/03",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "03",
+          "path": "/maps/Defence/EnemyMap/TargetPosition/03",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 2,
+          "pathConstraints": "/////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "5ff15c10-a8f9-40e6-a443-0faaaf5344b5",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": 3.5,
+                "y": 1.5,
+                "z": -999.999
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "16775374-53ac-48dc-84a7-d0b18124470b",
+        "path": "/maps/Defence/EnemyMap/TargetPosition/04",
+        "componentNames": "MOD.Core.TransformComponent",
+        "jsonString": {
+          "name": "04",
+          "path": "/maps/Defence/EnemyMap/TargetPosition/04",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 3,
+          "pathConstraints": "/////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "mapempty",
+            "sub_entity_id": null,
+            "root_entity_id": "5ff15c10-a8f9-40e6-a443-0faaaf5344b5",
+            "replaced_model_id": null
+          },
+          "modelId": "mapempty",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Position": {
+                "x": -3.5,
+                "y": 1.5,
+                "z": -999.999
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
         "id": "d6f0caf9-0112-4d52-a51a-6a12cf7e64d4",
         "path": "/maps/Defence/MyMonster",
         "componentNames": "MOD.Core.TransformComponent",
@@ -3297,7 +3568,7 @@
           "enable": true,
           "visible": true,
           "localize": false,
-          "displayOrder": 5,
+          "displayOrder": 6,
           "pathConstraints": "///",
           "revision": 1,
           "origin": {
@@ -3323,6 +3594,85 @@
                 "w": 1.0
               },
               "Enable": true
+            }
+          ],
+          "@version": 1
+        }
+      },
+      {
+        "id": "4af2f649-d2f3-4fe8-8a54-8e7b42410911",
+        "path": "/maps/Defence/MyMonster/monster-21",
+        "componentNames": "MOD.Core.TransformComponent,MOD.Core.StateAnimationComponent,MOD.Core.SpriteRendererComponent,script.EnemyMove",
+        "jsonString": {
+          "name": "monster-21",
+          "path": "/maps/Defence/MyMonster/monster-21",
+          "nameEditable": true,
+          "enable": true,
+          "visible": true,
+          "localize": false,
+          "displayOrder": 0,
+          "pathConstraints": "////",
+          "revision": 1,
+          "origin": {
+            "type": "Model",
+            "entry_id": "StaticMonster",
+            "sub_entity_id": null,
+            "root_entity_id": "4af2f649-d2f3-4fe8-8a54-8e7b42410911",
+            "replaced_model_id": null
+          },
+          "modelId": "staticmonster",
+          "@components": [
+            {
+              "@type": "MOD.Core.TransformComponent",
+              "Rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "Position": {
+                "x": -3.5,
+                "y": -2.5,
+                "z": 0.0
+              },
+              "QuaternionRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": -1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "ZRotation": 0.0,
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.StateAnimationComponent",
+              "ActionSheet": {
+                "fly": "35843142042440f3a014c241507479d2",
+                "attack": "64d20353ba294ddfaacbae95ef90504f",
+                "hit": "a14c7ffea9914c588dd6765fa5fb2f06",
+                "die": "1ecfa5fc03a543209d837a7cceae8126"
+              },
+              "Enable": true
+            },
+            {
+              "@type": "MOD.Core.SpriteRendererComponent",
+              "ActionSheet": {},
+              "EndFrameIndex": 2147483647,
+              "FlipX": true,
+              "RenderSetting": 1,
+              "SortingLayer": "MapLayer0",
+              "SpriteRUID": "bbf131a33b5844938c01c4dd871a3de8",
+              "StartFrameIndex": 0,
+              "Enable": true
+            },
+            {
+              "@type": "script.EnemyMove",
+              "Enable": true,
+              "speed": 10.0
             }
           ],
           "@version": 1
